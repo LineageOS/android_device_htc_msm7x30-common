@@ -53,6 +53,10 @@ PRODUCT_PACKAGES += \
     audio.primary.msm7x30 \
     libaudioutils
 
+# Camera
+PRODUCT_PACKAGES += \
+    camera.msm7x30
+
 # Video
 PRODUCT_PACKAGES += \
     copybit.msm7x30 \

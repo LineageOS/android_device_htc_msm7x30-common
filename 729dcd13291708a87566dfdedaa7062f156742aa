@@ -34,6 +34,24 @@
       "revId": "729dcd13291708a87566dfdedaa7062f156742aa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARH///7g\u003d",
+        "filename": "camerahal/cameraHAL.cpp",
+        "patchSetId": 11
+      },
+      "lineNbr": 677,
+      "author": {
+        "id": 2498
+      },
+      "writtenOn": "2012-03-09T15:27:54Z",
+      "side": 1,
+      "message": "Look at the else branch below! This is executed for camera(0) and just returns 0!",
+      "parentUuid": "AAAARH///7s\u003d",
+      "revId": "729dcd13291708a87566dfdedaa7062f156742aa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

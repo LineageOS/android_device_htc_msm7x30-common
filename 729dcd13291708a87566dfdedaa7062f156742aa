@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAARH///74\u003d",
+        "filename": "camerahal/cameraHAL.cpp",
+        "patchSetId": 11
+      },
+      "lineNbr": 677,
+      "author": {
+        "id": 2498
+      },
+      "writtenOn": "2012-03-09T15:14:23Z",
+      "side": 1,
+      "message": "with this code and REVERSE_FFC enabled you disable setting parameters for back facing camera at all!\n\nAlso have you checked re-open the camera after a reboot when ffc was last? I could imagine it still crashes then.",
+      "revId": "729dcd13291708a87566dfdedaa7062f156742aa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

@@ -16,6 +16,24 @@
       "revId": "54d64b028a3d157c5b3a546122bcdd4469b22f83",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//7NA\u003d",
+        "filename": "camerahal/cameraHAL.cpp",
+        "patchSetId": 10
+      },
+      "lineNbr": 686,
+      "author": {
+        "id": 2498
+      },
+      "writtenOn": "2012-03-09T06:51:02Z",
+      "side": 1,
+      "message": "sorry but we don\u0027t bypass this for reverse ffc... If camera id \u003d\u003d 1 then return 0 is called.\n\nBtw: camParams.set(\"front-camera-mode\", \"reverse\"); is never set because of that return 0!\nAnd even if it is set... it doesn\u0027t change anything. I tested with and without this line. It makes no difference.",
+      "parentUuid": "AAAAQX//7Nc\u003d",
+      "revId": "54d64b028a3d157c5b3a546122bcdd4469b22f83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

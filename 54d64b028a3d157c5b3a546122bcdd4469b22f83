@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX//7Nc\u003d",
+        "filename": "camerahal/cameraHAL.cpp",
+        "patchSetId": 10
+      },
+      "lineNbr": 686,
+      "author": {
+        "id": 2137
+      },
+      "writtenOn": "2012-03-09T06:43:06Z",
+      "side": 1,
+      "message": "If this is what has to be disabled, this was the part used from the patch I was referring to. For reverse FFC, we bypass this.",
+      "revId": "54d64b028a3d157c5b3a546122bcdd4469b22f83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

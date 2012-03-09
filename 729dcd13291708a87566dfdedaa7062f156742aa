@@ -16,6 +16,24 @@
       "revId": "729dcd13291708a87566dfdedaa7062f156742aa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAARH///7s\u003d",
+        "filename": "camerahal/cameraHAL.cpp",
+        "patchSetId": 11
+      },
+      "lineNbr": 677,
+      "author": {
+        "id": 2137
+      },
+      "writtenOn": "2012-03-09T15:24:42Z",
+      "side": 1,
+      "message": "Actually, if you look at the line just above it only does that for camerid 1, which is the FFC. For the back camera (0), this code is ignored. I am able to close and open the camera without a close because the return 0 is separated by an else statement. My previous comment about saga assumed you had actually tested the code. Please report back after you have.",
+      "parentUuid": "AAAARH///74\u003d",
+      "revId": "729dcd13291708a87566dfdedaa7062f156742aa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAARX///6c\u003d",
+        "filename": "camerahal/cameraHAL.cpp",
+        "patchSetId": 14
+      },
+      "lineNbr": 868,
+      "author": {
+        "id": 2498
+      },
+      "writtenOn": "2012-03-15T22:41:03Z",
+      "side": 1,
+      "message": "This makes saved camera images rotated 90°!\nIF it is really needed for video then it should be set only if we are in video mode!",
+      "revId": "a2f8eca0d573056931e3b4b0a00874ef268bfcd9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

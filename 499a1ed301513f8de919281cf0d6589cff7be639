@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAARn///3A\u003d",
+        "filename": "camerahal/cameraHAL.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 1184,
+      "author": {
+        "id": 850
+      },
+      "writtenOn": "2012-03-29T00:16:08Z",
+      "side": 1,
+      "message": "should only set orientation 270 for FFC",
+      "revId": "499a1ed301513f8de919281cf0d6589cff7be639",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
